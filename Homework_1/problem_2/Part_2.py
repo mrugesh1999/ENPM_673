@@ -16,7 +16,7 @@ plt.rcParams.update({'font.size': 22})
 # Type of parameters: Equation = String & x_axis_length = Range & label_str = string
 
 
-def plot_graph (equation, x_axis_length, label_str, linewidth ='1.0'):
+def plot_graph(equation, x_axis_length, label_str, linewidth='1.0'):
     x = np.array(x_axis_length)  # Creating 1D NP array with length of no. of Points
     y = eval(equation)  # Solving equation passed as a String(str)
     plt.plot(x, y, label=label_str, linewidth=linewidth)  # Plotting Graph
