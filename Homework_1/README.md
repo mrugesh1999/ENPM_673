@@ -13,9 +13,9 @@
 	All other files are either pictures of generated output or the
 	the media files.
 ## Requirements
-       ***Important*************************************************
-       *Change the path of the video in cv2.VideoCapture() function*
-       *************************************************************
+       ***Important****************************************************************
+       *Change the path of the video in cv2.VideoCapture() function in python file*
+       ****************************************************************************
 ### To run this code following libraries are required
 * OpenCV, 
 * random, 
@@ -24,9 +24,39 @@
 * time.
 
 ### Installation (For ubuntu 18.04) ###
-	OpenCV     ==>> sudo apt install python3-opencv
-	matplotlib ==>> python -m pip install -U matplotlib
-	NumPy      ==>> pip install numpy
+	* OpenCV
+	````
+	sudo apt install python3-opencv
+	````
+	* matplotlib
+	````
+	python -m pip install -U matplotlib
+	````
+	* NumPy
+	````
+	pip install numpy
+	````
+	
+### Running code in ubuntu
+After changing the path of the video source file and installing dependencies
+Make sure that current working derectory is same as the directory of program
+You can change the working derectory by using **cd** command
+* Run the following command which will generate curve plot for video 1
+````
+python Part_1.py
+````
+* Run the following command which will generate curve plot for video 2
+````
+python Part_2.py
+````
+It is important to note that if both python files are in different directory
+we have to change to the correct directory again.
+* Run the following command to get the solution of problem 3
+* This will generate homography matrix in the terminal
+````
+python Homography.py
+````
+
 ### Troubleshooting ###
 	Most of the cases the issue will be incorrect file path.
 	Double check the path by opening the properies of the video
