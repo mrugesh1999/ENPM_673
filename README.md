@@ -3,4 +3,4 @@ This repository includes projects, assignments and homework submission for UMD R
 Kindly read the README.md file for each folder for assignment/project specific instructions.
 
 # For any questions contact me
->>>>>>>>>>>[@]<<<<<<<<<<(mrugesh.shah92@gmail.com)
+[Click HERE](mrugesh.shah92@gmail.com)
