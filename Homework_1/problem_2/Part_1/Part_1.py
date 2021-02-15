@@ -267,14 +267,6 @@ alfa, beta, gama, best_inliner, best_parameter = ransac(myPoints, 2500, 35)
 # Plotting graph based on RANSAC
 plot_graph('-1 * ((alfa*(x**2))+(beta*x)+gama)', range(0, 2350), 'RANSAC')
 
-# Uncomment the portion below to apply LS method to only the in liners
-
-# # Applying LS to only the inLiners
-# A, B, C = least_sqrd(best_inliner)
-#
-# # Plotting graph based on RANSAC + LS
-# plot_graph('-1 * ((A*(x**2))+(B*x)+C)', range(0, 3400), 'RANSAC+LS')
-
 # Applying TLS to my points and getting constants
 aye, bee, d = TLS(myPoints)
 
