@@ -25,5 +25,5 @@ time.
 	and copying path directly from there.
 
 	For issues that you may encounter create an issue on GitHub.
-### Maaintainers ###
+### Maintainers ###
 	Mrugesh Shah (mrugesh.shah92@gmail.com)
