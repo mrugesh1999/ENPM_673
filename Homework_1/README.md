@@ -1,14 +1,14 @@
 # Homework 1 #
 
-### Introduction ###
+## Introduction 
   	This file includes python program solution for Homework 1 for
 	UMD ENPM 673 Spring 2021 batch. The folders consists of python
 	program along with some generated outputs as .png image. 
-### Requirements ###
+## Requirements
        ***Important*************************************************
        *Change the path of the video in cv2.VideoCapture() function*
        *************************************************************
-###### To run this code following libraries are required: ######
+### To run this code following libraries are required
 OpenCV
 random
 matplotlib
