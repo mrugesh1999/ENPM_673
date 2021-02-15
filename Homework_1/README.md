@@ -8,13 +8,13 @@
        ***Important*************************************************
        *Change the path of the video in cv2.VideoCapture() function*
        *************************************************************	
+>To run this code following libraries are required:
+> > OpenCV
+> > random
+> > matplotlib
+> > NumPy
+> > time
 
-    To run this code following libraries are required:
-	OpenCV
-	random
-	matplotlib
-	NumPy
-	time
 ### Installation (For ubuntu 18.04) ###
 	OpenCV     ==>> sudo apt install python3-opencv
 	matplotlib ==>> python -m pip install -U matplotlib
