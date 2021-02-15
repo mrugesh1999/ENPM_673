@@ -24,15 +24,15 @@
 * time.
 
 ### Installation (For ubuntu 18.04) ###
-	* OpenCV
+* OpenCV
 	````
 	sudo apt install python3-opencv
 	````
-	* matplotlib
+* matplotlib
 	````
 	python -m pip install -U matplotlib
 	````
-	* NumPy
+* NumPy
 	````
 	pip install numpy
 	````
