@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 
 # Reading the image in color and grayscale
-image = cv2.imread('/home/zeus/Desktop/ref_marker.png')
-img = cv2.imread('/home/zeus/Desktop/ref_marker.png', 0)
+image = cv2.imread('ref_marker.png')
+img = cv2.imread('ref_marker.png', 0)
 
 # Getting the shape of each element in grid from image
 x = img.shape[0] / 8
