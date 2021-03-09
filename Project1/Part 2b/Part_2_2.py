@@ -96,22 +96,22 @@ ent = int(input("Your input: "))
 
 # If statements to choose the video based on user input
 if ent == 0:
-    video_data = cv2.VideoCapture('/home/zeus/Desktop/Tag0.mp4')
+    video_data = cv2.VideoCapture('Tag0.mp4')
     result = cv2.VideoWriter('Tag0.avi',
                              cv2.VideoWriter_fourcc(*'MJPG'),
                              10, (int(video_data.get(3)), int(video_data.get(4))))
 elif ent == 1:
-    video_data = cv2.VideoCapture('/home/zeus/Desktop/Tag1.mp4')
+    video_data = cv2.VideoCapture('Tag1.mp4')
     result = cv2.VideoWriter('Tag1.avi',
                              cv2.VideoWriter_fourcc(*'MJPG'),
                              10, (int(video_data.get(3)), int(video_data.get(4))))
 elif ent == 2:
-    video_data = cv2.VideoCapture('/home/zeus/Desktop/Tag2.mp4')
+    video_data = cv2.VideoCapture('Tag2.mp4')
     result = cv2.VideoWriter('Tag2.avi',
                              cv2.VideoWriter_fourcc(*'MJPG'),
                              10, (int(video_data.get(3)), int(video_data.get(4))))
 elif ent == 3:
-    video_data = cv2.VideoCapture('/home/zeus/Desktop/multipleTags.mp4')
+    video_data = cv2.VideoCapture('multipleTags.mp4')
     result = cv2.VideoWriter('multipleTags.avi',
                              cv2.VideoWriter_fourcc(*'MJPG'),
                              10, (int(video_data.get(3)), int(video_data.get(4))))
