@@ -23,7 +23,7 @@ def convert(img, target_type_min, target_type_max, target_type):
 
 
 # Sourcing the video
-Video = cv2.VideoCapture('/home/zeus/Desktop/Tag1.mp4')
+Video = cv2.VideoCapture('Tag1.mp4')
 
 # Getting a single frame to perform operation (frame npo. 50)
 Video.set(1, 50)
