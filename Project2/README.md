@@ -47,7 +47,8 @@ python Part_1.py
 ````
 * Run the following command which will ask to select the data set
 ````
-python Part_2.py
+pycharm-community Part_2.py 
+
 ````
 
 It is important to note that if both python files are in different directory
