@@ -34,8 +34,8 @@
 	````
  * SciPy
 	````
-  pip install scipy
-  ````
+ 	pip install scipy
+  	````
 	
 ### Running code in ubuntu
 After changing the path of the video source file and installing dependencies
