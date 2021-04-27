@@ -299,7 +299,7 @@ cv2.imwrite('right_img.png', img2_rectified)
 if sterio == 1:
     img1_rectified = cv2.cvtColor(img1_rectified, cv2.COLOR_BGR2GRAY)
     img2_rectified = cv2.cvtColor(img2_rectified, cv2.COLOR_BGR2GRAY)
-    stereo_match(img1_rectified, img2_rectified, 20, 16)
+    stereo_match('left_img.png', 'right_img.png', 20, 16)
     image = cv2.imread('depth.png', 0)
     colormap = plt.get_cmap('inferno')
     heatmap = (colormap(image) * 2 ** 16).astype(np.uint16)[:, :, :3]
