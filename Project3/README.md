@@ -43,23 +43,26 @@
 After changing the path of the video source file and installing dependencies
 Make sure that current working derectory is same as the directory of program
 You can change the working derectory by using **cd** command
-* Run the following command which will give the result for part 1
+* Run the following command which will execute the code
 ````
-python Part_1.py
+python main.py
 ````
-* Run the following command which will ask to select the data set
-````
-pycharm-community Part_2.py 
-
+* Select the data set by entering the digit using number pad
 ````
 
+Enter the dataset you want to execute (enter 1, 2 or 3)):
+````
+* now, if you want to check the disparity as well, press 1, Note that it will take long time to be executed
+````
+Do you want to get disparity and depth image (1:Yes, 2:No)?
+````
 It is important to note that if both python files are in different directory
-we have to change to the correct directory again.
+we have to change to the correct directory if it is not true.
 
 
 ### Troubleshooting ###
 	Most of the cases the issue will be incorrect file path.
-	Double check the path by opening the properies of the video
+	Double check the path by opening the properies of the vdata set
 	and copying path directly from there.
 
 	For issues that you may encounter create an issue on GitHub.
