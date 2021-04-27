@@ -183,7 +183,7 @@ def stereo_match(left_img, right_img, kernel, max_offset):
     Image.fromarray(depth).save('depth.png')
 
 
-dataset = int(input("Enter the dataset you want to excute: (enter 1, 2 or 3)"))
+dataset = int(input("Enter the dataset you want to execute (enter 1, 2 or 3):   "))
 
 if dataset == 1:
     K1 = [5299.313, 0, 1263.818, 0, 5299.313, 977.763, 0, 0, 1]
@@ -192,6 +192,8 @@ if dataset == 1:
     K2 = np.reshape(K2, (3, 3))
     base = 177.288
     focal = 5299.313
+    img1 = cv2.imread('Dataset_1/im0.png')
+    img2 = cv2.imread('Dataset_1/im1.png')
 
 if dataset == 2:
     K1 = [4396.869, 0, 1353.072, 0, 4396.869, 989.702, 0, 0, 1]
@@ -200,6 +202,8 @@ if dataset == 2:
     K2 = np.reshape(K2, (3, 3))
     base = 144.049
     focal = 4396.869
+    img1 = cv2.imread('Dataset_2/im0.png')
+    img2 = cv2.imread('Dataset_2/im1.png')
 
 if dataset == 3:
     K1 = [5806.559, 0, 1429.219, 0, 5806.559, 993.403, 0, 0, 1]
@@ -208,15 +212,15 @@ if dataset == 3:
     K2 = np.reshape(K2, (3, 3))
     base = 174.019
     focal = 5806.559
+    img1 = cv2.imread('Dataset_3/im0.png')
+    img2 = cv2.imread('Dataset_3/im1.png')
+
 
 else:
     print("Enter either 1 or 2 or 3 and nothing else !!")
 
-sterio = int(input("Do you want to get disparity and depth image ? (1:Yes, 2:No)"))
+sterio = int(input("Do you want to get disparity and depth image (1:Yes, 2:No)?  "))
 
-
-img1 = cv2.imread('Dataset_3/im0.png')
-img2 = cv2.imread('Dataset_3/im1.png')
 
 h1 = img1.shape[0]
 w1 = img1.shape[1]
